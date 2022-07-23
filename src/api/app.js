@@ -7,7 +7,7 @@ const errorMiddleware = require('../middlewares/error');
 const app = express();
 
 const corsOptions = {
-    origin: 'https://git.heroku.com/herocker-exercise-46-frontend.git',
+    origin: 'https://herocker-exercise-46-frontend.herokuapp.com',
     optionsSuccessStatus: 200,
     // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
